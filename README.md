@@ -21,7 +21,7 @@ self-implement of disease centered Medical graph from zero to full and sever as 
 # 项目运行方式
 1、配置要求：要求配置neo4j数据库及相应的python依赖包。neo4j数据库用户名密码记住，并修改相应文件。  
 2、知识图谱数据导入：python build_medicalgraph.py，导入的数据较多，估计需要几个小时。  
-3、启动问答：python chat_graph.py
+3、启动问答：python chat_graph.py。  
 4、结合streamlit设计网页：streamlit run streamlit_app.py
 
 # 以下介绍详细方案
