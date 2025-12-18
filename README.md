@@ -17,7 +17,8 @@ self-implement of disease centered Medical graph from zero to full and sever as 
 ![image](https://github.com/liuhuanyong/QABasedOnMedicalKnowledgeGraph/blob/master/img/chat2.png)
 
 以下是实现前后端分离后设计的网页：
-![image](https://github.com/LIUXINYI-huaizhi/QASystemOnMedicalKG/tree/master/img/present.png)
+![image](https://github.com/LIUXINYI-huaizhi/QASystemOnMedicalKG/blob/master/img/present.png)
+
 # 项目运行方式
 1、配置要求：要求配置neo4j数据库及相应的python依赖包。neo4j数据库用户名密码记住，并修改相应文件。  
 2、知识图谱数据导入：python build_medicalgraph.py，导入的数据较多，估计需要几个小时。  
