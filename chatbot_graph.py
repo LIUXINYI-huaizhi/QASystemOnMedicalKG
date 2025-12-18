@@ -16,7 +16,7 @@ class ChatBotGraph:
         self.searcher = AnswerSearcher()
 
     def chat_main(self, sent):
-        answer = '您好，我是小勇医药智能助理，希望可以帮到您。如果没答上来，可联系https://liuhuanyong.github.io/。祝您身体棒棒！'
+        answer = '您好，我是Medical 罗伯特，很高兴为您服务。如果没回答上来您的问题，可能是因为我的知识还不够丰富，期待与您共同成长！'
         res_classify = self.classifier.classify(sent)
         if not res_classify:
             return answer
